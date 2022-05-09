@@ -1,0 +1,7 @@
+Hater:sonic:0
+From-Hell:demon:0
+Core:core:1
+Punchtune:core:1
+Hardcore:core:1
+Corexpurgation:core-scream:1
+Chair-Battle:core:1
