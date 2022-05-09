@@ -53,6 +53,10 @@ class OutdatedSubState extends MusicBeatState
 		txt.borderStyle = FlxTextBorderStyle.OUTLINE;
 		txt.screenCenter();
 		add(txt);
+
+                #if android
+	        addVirtualPad(NONE, A_B);
+                #end
 		
 		FlxTween.color(bg, 2, bg.color, FlxColor.fromString(bgColors[colorRotation]));
 		FlxTween.angle(kadeLogo, kadeLogo.angle, -10, 2, {ease: FlxEase.quartInOut});
