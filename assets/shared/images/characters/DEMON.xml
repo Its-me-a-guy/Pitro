@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DEMON.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SUPER SONIC GAMER BR DOWN0000" x="0" y="0" width="333" height="454" pivotX="277.5" pivotY="339.75"/>
+	<SubTexture name="SUPER SONIC GAMER BR DOWN0001" x="335" y="0" width="333" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR DOWN0002" x="670" y="0" width="333" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR DOWN0003" x="1005" y="0" width="333" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR DOWN0004" x="1340" y="0" width="333" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR DOWN0005" x="1675" y="0" width="333" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR DOWN0006" x="0" y="456" width="333" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR DOWN0007" x="335" y="456" width="333" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR DOWN0008" x="1340" y="0" width="333" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR DOWN0009" x="1675" y="0" width="333" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR DOWN0010" x="0" y="456" width="333" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR DOWN0011" x="335" y="456" width="333" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR DOWN0012" x="1340" y="0" width="333" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR DOWN0013" x="1675" y="0" width="333" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR DOWN0014" x="0" y="456" width="333" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR DOWN0015" x="335" y="456" width="333" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR DOWN0016" x="1340" y="0" width="333" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR DOWN0017" x="1675" y="0" width="333" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR IDLE0000" x="670" y="456" width="321" height="444" pivotX="298.05" pivotY="323.35"/>
+	<SubTexture name="SUPER SONIC GAMER BR IDLE0001" x="993" y="456" width="321" height="444"/>
+	<SubTexture name="SUPER SONIC GAMER BR IDLE0002" x="1316" y="456" width="321" height="444"/>
+	<SubTexture name="SUPER SONIC GAMER BR IDLE0003" x="1639" y="456" width="321" height="444"/>
+	<SubTexture name="SUPER SONIC GAMER BR IDLE0004" x="0" y="912" width="321" height="444"/>
+	<SubTexture name="SUPER SONIC GAMER BR IDLE0005" x="323" y="912" width="321" height="444"/>
+	<SubTexture name="SUPER SONIC GAMER BR IDLE0006" x="646" y="912" width="321" height="444"/>
+	<SubTexture name="SUPER SONIC GAMER BR IDLE0007" x="969" y="912" width="321" height="444"/>
+	<SubTexture name="SUPER SONIC GAMER BR IDLE0008" x="1292" y="912" width="321" height="444"/>
+	<SubTexture name="SUPER SONIC GAMER BR IDLE0009" x="1615" y="912" width="321" height="444"/>
+	<SubTexture name="SUPER SONIC GAMER BR IDLE0010" x="646" y="912" width="321" height="444"/>
+	<SubTexture name="SUPER SONIC GAMER BR IDLE0011" x="969" y="912" width="321" height="444"/>
+	<SubTexture name="SUPER SONIC GAMER BR IDLE0012" x="1292" y="912" width="321" height="444"/>
+	<SubTexture name="SUPER SONIC GAMER BR IDLE0013" x="1615" y="912" width="321" height="444"/>
+	<SubTexture name="SUPER SONIC GAMER BR IDLE0014" x="646" y="912" width="321" height="444"/>
+	<SubTexture name="SUPER SONIC GAMER BR IDLE0015" x="969" y="912" width="321" height="444"/>
+	<SubTexture name="SUPER SONIC GAMER BR IDLE0016" x="1292" y="912" width="321" height="444"/>
+	<SubTexture name="SUPER SONIC GAMER BR IDLE0017" x="1615" y="912" width="321" height="444"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0000" x="0" y="1358" width="363" height="454" pivotX="341.35" pivotY="339.2"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0001" x="365" y="1358" width="363" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0002" x="730" y="1358" width="363" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0003" x="1095" y="1358" width="363" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0004" x="1460" y="1358" width="363" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0005" x="0" y="1814" width="363" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0006" x="365" y="1814" width="363" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0007" x="730" y="1814" width="363" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0008" x="1460" y="1358" width="363" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0009" x="0" y="1814" width="363" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0010" x="365" y="1814" width="363" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0011" x="730" y="1814" width="363" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0012" x="1460" y="1358" width="363" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0013" x="0" y="1814" width="363" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0014" x="365" y="1814" width="363" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0015" x="730" y="1814" width="363" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0016" x="1460" y="1358" width="363" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0017" x="0" y="1814" width="363" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0018" x="365" y="1814" width="363" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR LEFT0019" x="730" y="1814" width="363" height="454"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0000" x="1095" y="1814" width="354" height="455" pivotX="273.5" pivotY="338.65"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0001" x="1451" y="1814" width="354" height="455"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0002" x="0" y="2271" width="354" height="455"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0003" x="356" y="2271" width="354" height="455"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0004" x="712" y="2271" width="354" height="455"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0005" x="1068" y="2271" width="354" height="455"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0006" x="1424" y="2271" width="354" height="455"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0007" x="0" y="2728" width="354" height="455"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0008" x="712" y="2271" width="354" height="455"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0009" x="1068" y="2271" width="354" height="455"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0010" x="1424" y="2271" width="354" height="455"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0011" x="0" y="2728" width="354" height="455"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0012" x="712" y="2271" width="354" height="455"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0013" x="1068" y="2271" width="354" height="455"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0014" x="1424" y="2271" width="354" height="455"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0015" x="0" y="2728" width="354" height="455"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0016" x="712" y="2271" width="354" height="455"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0017" x="1068" y="2271" width="354" height="455"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0018" x="1424" y="2271" width="354" height="455"/>
+	<SubTexture name="SUPER SONIC GAMER BR RIGHT0019" x="0" y="2728" width="354" height="455"/>
+	<SubTexture name="SUPER SONIC GAMER BR UP0000" x="356" y="2728" width="369" height="478" pivotX="349.5" pivotY="364.5"/>
+	<SubTexture name="SUPER SONIC GAMER BR UP0001" x="727" y="2728" width="369" height="478"/>
+	<SubTexture name="SUPER SONIC GAMER BR UP0002" x="1098" y="2728" width="369" height="478"/>
+	<SubTexture name="SUPER SONIC GAMER BR UP0003" x="1469" y="2728" width="369" height="478"/>
+	<SubTexture name="SUPER SONIC GAMER BR UP0004" x="0" y="3208" width="369" height="478"/>
+	<SubTexture name="SUPER SONIC GAMER BR UP0005" x="371" y="3208" width="369" height="478"/>
+	<SubTexture name="SUPER SONIC GAMER BR UP0006" x="742" y="3208" width="369" height="478"/>
+	<SubTexture name="SUPER SONIC GAMER BR UP0007" x="1113" y="3208" width="369" height="478"/>
+	<SubTexture name="SUPER SONIC GAMER BR UP0008" x="0" y="3208" width="369" height="478"/>
+	<SubTexture name="SUPER SONIC GAMER BR UP0009" x="371" y="3208" width="369" height="478"/>
+	<SubTexture name="SUPER SONIC GAMER BR UP0010" x="742" y="3208" width="369" height="478"/>
+	<SubTexture name="SUPER SONIC GAMER BR UP0011" x="1113" y="3208" width="369" height="478"/>
+	<SubTexture name="SUPER SONIC GAMER BR UP0012" x="0" y="3208" width="369" height="478"/>
+	<SubTexture name="SUPER SONIC GAMER BR UP0013" x="371" y="3208" width="369" height="478"/>
+	<SubTexture name="SUPER SONIC GAMER BR UP0014" x="742" y="3208" width="369" height="478"/>
+	<SubTexture name="SUPER SONIC GAMER BR UP0015" x="1113" y="3208" width="369" height="478"/>
+	<SubTexture name="SUPER SONIC GAMER BR UP0016" x="0" y="3208" width="369" height="478"/>
+	<SubTexture name="SUPER SONIC GAMER BR UP0017" x="371" y="3208" width="369" height="478"/>
+</TextureAtlas>
