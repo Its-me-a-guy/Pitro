@@ -270,7 +270,7 @@ class PlayState extends MusicBeatState
 
 			File.saveBytes(Paths.lua(songLowercase  + "/modchart"), luaFile);
 
-			executeModchart = FileSystem.exists(Paths.lua(songLowercase "/modchart"));
+			executeModchart = FileSystem.exists(Paths.lua(songLowercase  + "/modchart"));
 		}
 
 		#if windows
