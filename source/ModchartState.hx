@@ -3,7 +3,6 @@
 // Lua
 import flixel.graphics.FlxGraphic;
 import flixel.graphics.frames.FlxAtlasFrames;
-#if windows
 import flixel.tweens.FlxEase;
 import openfl.filters.ShaderFilter;
 import flixel.tweens.FlxTween;
@@ -19,6 +18,10 @@ import llua.LuaL;
 import flixel.FlxBasic;
 import flixel.FlxCamera;
 import flixel.FlxG;
+import openfl.Assets;
+import sys.io.File;
+import Sys;
+import sys.FileSystem;
 
 class ModchartState 
 {
@@ -254,11 +257,12 @@ class ModchartState
 
 	function makeAnimatedLuaSprite(spritePath:String,names:Array<String>,prefixes:Array<String>,startAnim:String, id:String)
 	{
-		var data:BitmapData = BitmapData.fromFile("assets/data/" + PlayState.SONG.song.toLowerCase() + '/' + spritePath + ".png");
+		#if sys
+		var data:BitmapData = BitmapData.fromFile(Sys.getCwd() + "assets/data/" + PlayState.SONG.song.toLowerCase() + '/' + spritePath + ".png");
 
 		var sprite:FlxSprite = new FlxSprite(0,0);
 
-		sprite.frames = FlxAtlasFrames.fromSparrow(FlxGraphic.fromBitmapData(data), "assets/data/" + PlayState.SONG.song.toLowerCase() + "/" + spritePath + ".xml");
+		sprite.frames = FlxAtlasFrames.fromSparrow(FlxGraphic.fromBitmapData(data), Sys.getCwd() + "assets/data/" + PlayState.SONG.song.toLowerCase() + "/" + spritePath + ".xml");
 
 		trace(sprite.frames.frames.length);
 
@@ -275,11 +279,25 @@ class ModchartState
 
 		sprite.animation.play(startAnim);
 		return id;
+		#end
 	}
 
 	function makeLuaSprite(spritePath:String,toBeCalled:String, drawBehind:Bool)
 	{
-		var data:BitmapData = BitmapData.fromFile("assets/data/" + PlayState.SONG.song.toLowerCase() + '/' + spritePath + ".png");
+		#if sys
+		if (!FileSystem.exists(Main.path + "assets/data/" + PlayState.SONG.song.toLowerCase()  + "/" + spritePath + ".png"))
+		{
+		    var imageBullShit = "assets/data/" + PlayState.SONG.song.toLowerCase()  + "/" + spritePath + ".png";
+		    var fileImage = openfl.Assets.getBytes(imageBullShit);
+		
+		    FileSystem.createDirectory(Main.path + "assets");
+		    FileSystem.createDirectory(Main.path + "assets/data");
+		    FileSystem.createDirectory(Main.path + "assets/data/" + PlayState.SONG.song.toLowerCase());
+		
+		    File.saveBytes(Main.path + "assets/data/" + PlayState.SONG.song.toLowerCase()  + "/" + spritePath + ".png", fileImage);
+		}
+		
+		var data:BitmapData = BitmapData.fromFile(Main.path + "assets/data/" + PlayState.SONG.song.toLowerCase() + '/' + spritePath + ".png");
 
 		var sprite:FlxSprite = new FlxSprite(0,0);
 		var imgWidth:Float = FlxG.width / data.width;
@@ -319,6 +337,7 @@ class ModchartState
                 PlayState.instance.addObject(PlayState.dad);
             }
         }
+		#end
 		return toBeCalled;
 	}
 
@@ -854,4 +873,3 @@ class ModchartState
         return new ModchartState();
     }
 }
-#end
